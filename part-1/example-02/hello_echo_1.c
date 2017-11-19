@@ -31,6 +31,14 @@ int main(int argc, char *argv[]) {
      *
      *       Las expresiones como "\t" o "\n" se conocen como secuencias
      *       de escape.
+     *
+     *       Las expresiones como:
+     *       int i = 1;
+     *       int argc;
+     *       char *argv[];
+     *       Son declaraciones de varaibles:
+     *
+     *       [modificador] <tipo> <nombre_de_var> [= <valor_de_la_variable>];
      */
 
     for(int i = 1; i < argc; i++) {
